@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  motion-listener:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: 10.0.0.254:31760/motion-listener:latest
